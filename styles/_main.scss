@@ -1,0 +1,221 @@
+
+$main-txt-color: black; 
+
+// index page
+.main {
+    min-height: 90vh;
+    background: rgb(255, 255, 255);
+    background: transparent;
+    
+    
+    &__heading {
+        
+        margin-left: 148px;
+        padding-top: 96px;
+        color: #4A4FF2;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    &__info {
+        margin-left: 148px;
+        line-height: 60px;
+        font-size: 40px;
+        text-align: match-parent;
+        padding-top: 20px;
+        max-width: 35%;
+        color: $main-txt-color;
+    }
+
+    &__tagline {
+        margin-left: 148px;
+        line-height: 60px;
+        font-size: 28px;
+        text-align: match-parent;
+        padding-top: 20px;
+        max-width: 35%;
+        color: $main-txt-color;
+    }
+
+    &__box {
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        list-style: none;
+        
+        
+        
+    }
+
+
+}
+
+//Project page//
+.main {
+    min-height: 90vh;
+    background: rgb(255, 255, 255);
+    background: transparent;
+    
+    
+    &__heading_p {
+        
+        margin-left: 148px;
+        padding-top: 96px;
+        color: #000000;
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: normal;
+        max-width: 25%;
+    }
+
+    &__info_p {
+        margin-left: 148px;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: match-parent;
+        padding-top: 20px;
+        max-width: 35%;
+        color: $main-txt-color;
+    }
+
+    &__tagline_p {
+        margin-left: 148px;
+        line-height: 26px;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: match-parent;
+        padding-top: 20px;
+        max-width: 50%;
+        color: $main-txt-color;
+    }
+
+    &__link_p {
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        list-style: none;
+        
+        
+        
+}
+
+
+}
+//contact page
+.main {
+    min-height: 90vh;
+    background: rgb(255, 255, 255);
+    background: transparent;
+    
+    
+    &__heading_c {
+        
+        margin-left: 148px;
+        padding-top: 96px;
+        color: #000000;
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: normal;
+        max-width: 25%;
+    }
+
+    &__info_c {
+        margin-left: 148px;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: match-parent;
+        padding-top: 20px;
+        max-width: 35%;
+        color: $main-txt-color;
+    }
+
+
+}
+
+//Contacts
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 20%;
+    background-color: #4A4FF2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #4A4FF2;
+}
+  
+
+.form {
+    position: relative;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    width: 20%;
+    margin-top: -300px;
+    margin-left: 1000px;
+}
+
+
+
+
+.wrapper {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 80px;
+    padding: 20px;
+   
+    
+  }
+
+.box {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 0 1px;
+    text-align: center;
+    color: #8988DB;
+    
+    
+  }
+
+.row {
+    display: flex;
+  
+}
+
+.column {
+    flex: 33.33%;
+    padding: 1px;
+    column-gap: 1px;
+    
+}
+
+
+
+
+@import 'card'; 
+
+
+
